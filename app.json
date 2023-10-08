@@ -18,13 +18,23 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.globomantics.App",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29761898-ae92-4e10-96ce-cc1f52cfb242"
+      }
+    },
+    "owner": "nauman_cloud"
   }
 }
